@@ -1,0 +1,13 @@
+.Entertask {
+background-color: blue;
+color: brown;
+display: flex;
+justify-content: center;
+}
+.todo-head {
+    text-align: center;
+}
+.chek {
+    font-size: large;
+    font-weight: bold;
+}
