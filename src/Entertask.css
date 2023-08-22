@@ -6,8 +6,34 @@ justify-content: center;
 }
 .todo-head {
     text-align: center;
+    color: sandybrown;
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+   
 }
-.chek {
+.checked {
     font-size: large;
     font-weight: bold;
+}
+.buton {
+    margin-right: 5px;
+    margin-bottom: 8px;
+    
+}
+.submit {
+    margin-top: 8px;
+    float: right;
+}
+.list {
+    margin-top: 8px;
+}
+.tasksLists {
+    width: max-content;
+    font-size: large;
+}
+.butonDelete {
+    margin-left: 10px;
+}
+.borderr{
+    border-bottom: 1px solid black;
 }

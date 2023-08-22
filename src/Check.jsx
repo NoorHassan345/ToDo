@@ -1,27 +1,32 @@
-import React , {useState} from "react";
+import React  from "react";
 import "../src/Entertask.css"
+import Checkbox from "./Checkbox";
+import Delete from "./Delete";
 
 
-function Check(pros) {
-    const [checked , setChecked] = useState()
 
-    const checkk = (event) => {
-        if (event.target.checked) {
-        return setChecked('done')
-        }
-        else {
-          return setChecked ()
-        }
-        }
 
+
+
+function Check(props) {
+    
+    
+ 
+    
+   
     return (
+        <>
+     
+      
+      <div className="tasksLists"> <span > {props.taskName}  <span className="checked"> { props.checke ? " ( complete ) "   : ""}   </span> </span>  </div>
+      <Checkbox handleCheckboxChange = {props.handleCheckboxChange} checke= {props.checke} taskId = {props.taskId} />
+      <Delete handleDelete = {props.handleDelete} taskId = {props.taskId}/>
+      
+      
         
-        <li   >
-        
-        <span  > {pros.itemv}  <span className="chek">{checked} </span>   </span>
-        <input  type="checkbox" onChange={checkk} />
-        </li>
-        
+   
+
+        </>
     )
 }
 export default Check
