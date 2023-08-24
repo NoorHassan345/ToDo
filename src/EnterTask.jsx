@@ -31,7 +31,7 @@ const handleTaskChange = (event) => {
 
 
 const handleSubmit = (event) => {
-  const newtask = {
+  const newtask = { 
     username : name,
     id : Math.random(), 
     check : false
