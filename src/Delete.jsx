@@ -6,4 +6,4 @@ function Delete({handleDelete , taskId}) {
         <button className="btn btn-danger btn-sm butonDelete" onClick={() =>handleDelete(taskId)} type="button" >Delete </button>
     )
 }
-export default Delete
+export default Delete 

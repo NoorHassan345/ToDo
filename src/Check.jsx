@@ -16,7 +16,7 @@ function Check(props) {
    
     return (
         <>
-     
+      
       
       <div className="tasksLists"> <span > {props.taskName}  <span className="checked"> { props.checke ? " ( complete ) "   : ""}   </span> </span>  </div>
       <Checkbox handleCheckboxChange = {props.handleCheckboxChange} checke= {props.checke} taskId = {props.taskId} />

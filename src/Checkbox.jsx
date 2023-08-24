@@ -7,7 +7,7 @@ function Checkbox({handleCheckboxChange , checke ,taskId} ) {
         <input checked={checke}  type="checkbox" onChange={() => handleCheckboxChange (taskId)} />
 
         )
-        
+         
 }
 
 export default Checkbox
