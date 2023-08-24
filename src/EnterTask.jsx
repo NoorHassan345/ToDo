@@ -123,7 +123,7 @@ const incomplete = data.filter(itemvalu => !itemvalu.check)
     selectedmap === 2 &&
     incomplete.map( itemvalu => <div>
     
-        <li key={itemvalu.id}  >
+        <li key={itemvalu.id} >
         <Check  data = {data}  handleCheckboxChange = {handleCheckboxChange}  handleDelete = {handleDelete} checke= {itemvalu.check} taskId = {itemvalu.id} taskName = {itemvalu.username} />
         </li>
         </div>
